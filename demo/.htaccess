@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteRule ^$ instance_map.php [QSA]
+RewriteRule ^$ index.php [QSA]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ instance_map.php/$1 [QSA,L]
+RewriteRule ^(.*)$ index.php/$1 [QSA,L]
